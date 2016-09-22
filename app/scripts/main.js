@@ -1,7 +1,7 @@
 
 $(
   function(){
-      var transition = {$Duration:1000,$Rows:6,$Clip:4,$Move:true};
+      var transition = {$Duration:6000,$Rows:6,$Clip:4,$Move:true};
       var transitions=[
         transition
       ];
