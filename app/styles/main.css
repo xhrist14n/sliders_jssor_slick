@@ -71,6 +71,7 @@
 .texto-resaltado{
   font-family: 'Open Sans', sans-serif;
   color: black;
+  height: 50px;
 }
 
 .caption-text{
