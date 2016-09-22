@@ -1,13 +1,7 @@
 
 $(
   function(){
-    var transition = {
-      $Duration:1200,x:0.2,y:-0.1,
-      $Delay:80,$Cols:8,$Rows:4,$Clip:15,$During:{$Left:[0.3,0.7],
-        $Top:[0.3,0.7]},
-        $Easing:{$Left:$JssorEasing$.$EaseInWave,$Top:$JssorEasing$.$EaseInWave,$Clip:$JssorEasing$.$EaseOutQuad},
-        $Outside:true,$Round:{$Left:1.3,$Top:2.5}
-      };
+      var transition = {$Duration:1000,$Rows:6,$Clip:4,$Move:true};
       var transitions=[
         transition
       ];
