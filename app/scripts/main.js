@@ -1,7 +1,7 @@
 
 $(
   function(){
-      var transition = {$Duration:6000,$Rows:6,$Clip:4,$Move:true};
+      var transition = {$Duration:1000,$Rows:6,$Clip:4,$Move:true};
       var transitions=[
         transition
       ];
@@ -10,7 +10,7 @@ $(
 
       var jssor_slider1 = new $JssorSlider$("slider1_container",{
         $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
-        $Idle: 400,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+        $Idle: 6000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
         $DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $Cols is greater than 1, or parking position is not 0)
         $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
 
