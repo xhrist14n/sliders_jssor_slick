@@ -71,3 +71,16 @@
 .texto-resaltado{
   font-family: 'Open Sans', sans-serif;
 }
+
+.caption-text{
+    position: absolute;
+    top: 260px;
+    left: 30px;
+    width: 650px;
+    height: 120px;
+    /*background-color: rgba(39,124,145, 0.35); */
+    font-size: 50px;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+}
