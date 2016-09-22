@@ -80,7 +80,7 @@ $(
       dots: false,
       infinite: true,
       speed: 300,
-      slidesToShow: 5,
+      slidesToShow: 4,
       touchMove: false,
       slidesToScroll: 1
     });
