@@ -86,8 +86,8 @@
     "tag": "21.1.5",
     "commit": "bd52dc6db5ba39b43f5c7b0233eed189d1fbfb9b"
   },
-  "_source": "https://github.com/jssor/jquery-slider.git",
+  "_source": "https://github.com/jssor/slider.git",
   "_target": "^21.1.5",
-  "_originalSource": "jssor-slider",
+  "_originalSource": "jssor",
   "_direct": true
 }
